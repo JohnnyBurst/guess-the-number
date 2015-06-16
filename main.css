@@ -35,4 +35,5 @@ button {
   color: #FFFCFA;
   width: 250px;
   font-size: 1em;
+  cursor: pointer;
 }
