@@ -4,6 +4,14 @@ body, body * {
   font-family: Ubuntu, sans-serif;
 }
 
+.response {
+  text-align: center;
+  margin-top: 50px;
+  height: 50px;
+  color: #FFABAB;
+  font-size: 2em;
+}
+
 h3 {
   text-align: center;
   margin: 0 0 20px;
@@ -12,7 +20,7 @@ h3 {
 
 form {
   background: #FFF2E6;
-  margin: 50px auto;
+  margin: auto;
   padding: 50px;
   border-radius: 10px;
   font-size: 2em;
