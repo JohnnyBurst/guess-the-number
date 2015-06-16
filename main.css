@@ -1,6 +1,6 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu:300,400,500);
 
-body {
+body, body * {
   font-family: Ubuntu, sans-serif;
 }
 
@@ -12,22 +12,27 @@ h3 {
 
 form {
   background: #FFF2E6;
-  margin: 50px;
+  margin: 50px auto;
   padding: 50px;
   border-radius: 10px;
+  font-size: 2em;
+  width: 315px;
 }
 
 input {
-  border: 1px solid #FFE0C2;
+  border: 1px solid #ddd0d2;
   background: #FFFCFA;
   padding: 5px;
-  width: calc(100% - 120px);
+  width: calc(100% - 270px);
+  font-size: 1em;
+  text-align: center;
 }
 
 button {
   background: #FFABAB;
-  border: 1px solid #FF9C9C ;
+  border: 1px solid #FF9C9C;
   padding: 5px;
   color: #FFFCFA;
-  width: 100px;
+  width: 250px;
+  font-size: 1em;
 }
